@@ -1,0 +1,79 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+/* Just remove this border from all divs */
+div{
+  border: 2px solid black;
+}
+
+.nav{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+  border-radius: 5px;
+}
+
+.group1{
+  display: grid;
+  grid-template-columns: 20% 65% 15%;
+  grid-gap: 2px;
+  margin-top: 10px;
+}
+
+.side{
+  height:100vh;
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+ border-radius: 5px;
+}
+
+.main{
+  height: 100vh;
+  
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 2px;
+}
+
+.innermain1{
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+  height: 80vh;
+  border-radius: 5px;
+}
+.innermain2{
+  height: 19vh;
+  
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 2px;
+  
+}
+.innermain2 div {
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+  border-radius: 5px;
+}
+
+.smallBoxside{
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 2px;
+}
+
+.smallBoxside div {
+  width: 100%;
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+  border-radius: 5px;
+}
+
+.smallBoxBottom{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  /* background: navy; <-----Uncomment all of these to see a colorful background*/
+  border-radius: 5px;
+  margin-top: 10px;
+}
